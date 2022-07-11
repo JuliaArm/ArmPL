@@ -111,7 +111,7 @@ This is a very preliminary (testing and working) release.
 # Legal disclaimers:
 
   This account is a private GitHub account. Package naming tries to follow
-  the best Julia Language Community practices. All registered trademarks,
+  best Julia Language Community practices. All registered trademarks,
   copyrights and intellectual property rights belong to their respected
   owners.
 
