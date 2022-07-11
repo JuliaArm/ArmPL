@@ -93,7 +93,9 @@ This is a very preliminary (testing and working) release.
     cd ArmPL.jl/test
   
   - start tests: 
-    <OMP_NUM_THREADS=1 LD_LIBRARY_PATH=/opt/arm/armpl_22.0.2_gcc-11.2/lib 
+    <OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 BLIS_NUM_THREADS=1 
+    LD_LIBRARY_PATH=/opt/arm/armpl_22.0.2_gcc-11.2/lib julia -t auto>
+
     julia -t auto runtests.jl>
 
 
