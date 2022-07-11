@@ -1,7 +1,6 @@
 # This is a very preliminary (testing and working) release.
 
 
-
 # About:
 
     Julia bindings to Arm Performance Libraries (BLAS). 
