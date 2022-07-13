@@ -28,7 +28,7 @@
 
   - Arm Performance Libraries present on the system.
     
-    (For details about installation procedure please see:
+    (for details about installation procedure please see:
     https://developer.arm.com/downloads/-/arm-performance-libraries);
 
   - <LD_LIBRARY_PATH> environmental variable set 
@@ -93,54 +93,54 @@
 
 # Tests:
 
-  A suite of example tests for ArmPL, OpenBlas, BLISBLAS is included i.e. core
-  to core latencies, matrix multiplication, axpy!, memory bandwidth ... 
-  
-  To use:
+    A suite of example tests for ArmPL, OpenBlas, BLISBLAS is included i.e. core
+    to core latencies, matrix multiplication, axpy!, memory bandwidth ... 
+    
+    To run tests:
 
-- clone the repository:
-  git clone https://github.com/JuliaArm/ArmPL.jl.git
+  - clone the repository:
+    git clone https://github.com/JuliaArm/ArmPL.jl.git
 
-- change directory:
-  cd ArmPL.jl/test
+  - change directory:
+    cd ArmPL.jl/test
 
-- start tests: 
-  <OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 BLIS_NUM_THREADS=1
-  LD_LIBRARY_PATH=/opt/arm/armpl_22.0.2_gcc-11.2/lib julia -t auto
-  runtests.jl>
+  - start tests: 
+    <OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 BLIS_NUM_THREADS=1
+    LD_LIBRARY_PATH=/opt/arm/armpl_22.0.2_gcc-11.2/lib julia -t auto
+    runtests.jl>
 
 
 # Testing environment:
 
-  The package was tested on Neoverse N1, Oracle Linux 8.5 / Ubuntu 20.04.4 LTS
-  (Focal Fossa), Julia 1.7.3
+    The package was tested on Neoverse N1, Oracle Linux 8.5 / Ubuntu 20.04.4 LTS
+    (Focal Fossa), Julia 1.7.3
 
 
 # Licence:
 
-  ArmPL is released under the terms of the MIT "Expat" License.
+    ArmPL is released under the terms of the MIT "Expat" License.
 
 
 # Legal disclaimers:
 
-  This account is a private GitHub account. Package naming tries to follow best
-  Julia Language Community practices. All registered trademarks, copyrights and
-  intellectual property rights belong to their respected owners.
+    This account is a private GitHub account. Package naming tries to follow best
+    Julia Language Community practices. All registered trademarks, copyrights and
+    intellectual property rights belong to their respected owners.
 
 
 # Contact:
 
-  juliaarm at proton dot me
+    juliaarm at proton dot me
 
-  Please use with caution. Major purposes: friends making, serious questions.
-  Please be informed that due to some time constraints not all messages may be
-  answered immediately.
+    Please use with caution. Major purposes: friends making, serious questions.
+    Please be informed that due to some time constraints not all messages may be
+    answered immediately.
 
-  Please be advised that any potential questions explicitly related to the usage
-  of this Julia package should be addressed by Julia Discourse and any potential
-  issues by GitHub.
+    Please be advised that any potential questions explicitly related to the usage
+    of this Julia package should be addressed by Julia Discourse and any potential
+    issues by GitHub.
 
 
 # Special thanks:
 
-  OP, CB, CE, MG, MF, CG, JL, JH, KJ, DS
+    OP, CB, CE, MG, MF, CG, JL, JH, KJ, DS
