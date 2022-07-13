@@ -23,8 +23,11 @@
 # Requirements:
 
   - Unix, 64 bit operating system;
+  
+  - Julia version 1.7 and up (libblastrampoline support)
 
   - Arm Performance Libraries present on the system.
+    
     (For details about installation procedure please see:
     https://developer.arm.com/downloads/-/arm-performance-libraries);
 
