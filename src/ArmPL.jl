@@ -17,6 +17,7 @@ function __init__()
     # and in this case are not supported by libblastrampoline;
     # <libarmpl_ilp64_mp.so> sets number of BLAS threads based on <OMP_NUM_THREADS> 
     # environmental variable.
+    println("ArmPL ready.")
   else
     @error "
     Basic requirements to use <ArmPL> are not met.
