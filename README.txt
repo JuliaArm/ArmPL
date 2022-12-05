@@ -102,7 +102,7 @@
 # Testing environment:
 
     The package was tested on Neoverse N1, Oracle Linux 8.5 / Ubuntu 20.04.4 LTS
-    (Focal Fossa), Julia 1.7.3
+    (Focal Fossa), Julia 1.7.3.
 
 
 # Licence:
