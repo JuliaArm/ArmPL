@@ -62,8 +62,8 @@
     manually and desired number of BLAS threads can be provided i.e.
     at the time of Julia start. 
     
-    Three such scenarios are discussed below with accompanied advisory notes, 
-    the examples assume a CPU with 80 physical cores:
+    Three such scenarios are discussed below with advisory notes. The examples
+    assume a CPU with 80 physical cores:
 
     1) In case processed Julia code is parallel, the advise is to restrict ArmPL
     and Julia threads to 1 and add desired number of processes e.g. start julia 
