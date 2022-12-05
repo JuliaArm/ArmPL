@@ -39,3 +39,5 @@ function __init__()
       i.e. LD_LIBRARY_PATH=/opt/arm/armpl_22.0.2_gcc-11.2/lib julia."
   end
 end
+
+end # module
