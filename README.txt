@@ -30,7 +30,6 @@
     After system installation of Arm Performance Libraries, usual location of
     <libarmpl_ilp64_mp.so> is i.e. </opt/arm/armpl_22.0.2_gcc-11.2/lib>.
 
-
     3) <LD_LIBRARY_PATH> environmental variable set to a directory containing
     <libarmpl_ilp64_mp.so> i.e.:
 
